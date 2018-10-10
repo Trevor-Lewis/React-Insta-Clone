@@ -1,0 +1,22 @@
+.posts-wrapper{
+    max-width: 640px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.post-border {
+    border: 1px lightgrey solid;
+    border-bottom: 1px solid white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-header img {
+    border-radius: 50%;
+    width: 25%;
+    padding: 5px;
+}

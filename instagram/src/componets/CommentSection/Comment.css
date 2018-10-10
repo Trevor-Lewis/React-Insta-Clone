@@ -1,0 +1,12 @@
+.text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.text .username{
+    font-weight: bold;
+    padding-right: 10px;
+}
