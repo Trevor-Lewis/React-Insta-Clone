@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import './App.css'; 
-import dummyData from './dummy-data';
-import PostContainer from './componets/PostContainer/PostContainer';
-import SearchBar from './componets/SearchBar/SearchBar';
+import './App.css';
+import PostPage from './componets/PostContainer/PostPage';
+import Auth from './componets/Auth/Auth';
 
 class App extends Component {
   constructor() {
     super();
-    this.state= {
-     posts: dummyData
-    };
+    this.state = {};
   }
 
   render() {
     return (
       <div className="App">
-       <SearchBar />
-        <PostContainer posts={this.state.posts} />
+        <PostPage />
       </div>
     );
   }
 }
 
-export default App;
+export default Auth(App);

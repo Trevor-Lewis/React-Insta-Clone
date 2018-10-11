@@ -1,13 +1,38 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .search {
-  padding: 25px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 640px;
+  width: 100%;
 }
 
 .search input{
   width: 200px;
+  height: 20px;
+  border-radius: 1px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  /* background: lightgrey; */
 }
+
+.search .social-wrapper {
+  display: flex;
+}
+
+.search .social-wrapper .logos {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+
+
 
 
